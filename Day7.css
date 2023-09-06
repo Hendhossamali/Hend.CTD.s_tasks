@@ -1,0 +1,31 @@
+/*element selector*/
+h1 {
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Class selector*/
+.parag {
+    color: rgb(61, 28, 92);
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(176, 158, 194);
+}
+
+.projects {
+    text-align: center;
+    background-color: rgb(176, 158, 194);
+    border: solid 45px;
+    padding: 1px;
+    margin: 1px;
+    /*Dir WCC */
+    font-size: 18px;
+}
