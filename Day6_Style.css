@@ -2,11 +2,20 @@
 
 h1{
     color: red;
-font-align:center;
+  text-align:center;
+  font-size:30px;
 }
 p {
 color: blue;
 font-size: 20px; 
 }
 /*ID selector*/
-#
+#aboutme {
+    color:brown;
+    font-size:22px;
+    text-align:center;
+}
+/*Class selector*/
+.parag{
+    color:blueviolet;
+}
