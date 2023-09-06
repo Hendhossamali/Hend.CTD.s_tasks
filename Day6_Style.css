@@ -1,8 +1,11 @@
-
-
+/*element selector*/
 h1{
-    color: red;
+    color: black;
   text-align:center;
+}
+h2{
+    color: black;
+  text-align:left;
   font-size:30px;
 }
 p {
@@ -17,5 +20,28 @@ font-size: 20px;
 }
 /*Class selector*/
 .parag{
-    color:blueviolet;
+    color:rgb(61, 28, 92);
+    text-align: center;
+}
+.header{
+    background-color:rgb(176, 158, 194);
+}
+.skills{
+    /*EX1
+    color:rgb(92, 1, 92);
+    background-image:url(wordpress.jpg);
+    background-repeat: no-repeat;
+    background-position:center;*/
+    /* EX:ShortHand*/
+    background:url(wordpress.jpg) center no-repeat ;
+    background-size: cover;
+    font-size: 18px;
+}
+.projects{
+    background-color:rgb(176, 158, 194);
+    border: solid 3px;
+    padding: 1px;
+    margin:1px ;/*Dir WCC */
+    font-size: 18px;
+    
 }
