@@ -21,6 +21,7 @@ h2 {
 }
 
 .projects {
+    /* min-height: 300px; */
     width: 200px;
     height: 200px;;
     text-align: center;
