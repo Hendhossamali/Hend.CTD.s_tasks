@@ -12,7 +12,21 @@
     border: 1px solid #8d8c8c;
     float: right;
     }
-    .parag {
-        font-size: 10px;
-        text-align: left;
+.parag {
+    color:blue;
+        font-size: 20px;
+        text-align: right;
     }
+.background{
+    background-color: rgb(247, 201, 146);
+}
+.career{
+    text-indent: 20px;
+    font-size: 18px;
+    text-align: left;
+    text-decoration: underline rgb(235, 115, 41) solid 3px;
+    text-shadow: 2px 2px 2px #79502b;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    word-spacing: 2px;
+}
