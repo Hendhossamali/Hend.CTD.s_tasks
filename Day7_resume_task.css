@@ -12,4 +12,7 @@
     border: 1px solid #8d8c8c;
     float: right;
     }
-  
+    .parag {
+        font-size: 10px;
+        text-align: left;
+    }
