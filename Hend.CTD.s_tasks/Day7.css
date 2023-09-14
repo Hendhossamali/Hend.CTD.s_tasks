@@ -1,0 +1,63 @@
+/*element selector*/
+h1 {
+    color: black;
+    text-align: center;
+}
+
+/* h2 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+} */
+
+/*Class selector*/
+.parag {
+    color: rgb(61, 28, 92);
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(176, 158, 194);
+}
+
+.projects {
+    /* BOX MODEL */
+    border: solid black 45px;
+    padding: 1px;
+    margin: 1px 500px; /*Dir CW */
+    border-radius:  60px;
+    /* min-height: 300px; 
+       max-height: 300px; مش هيعدى الرقم*/
+    width: 300px;
+    height: 300px;;
+    /* Type of colors */
+    /* 1)rgb(red,green,blue) 000for black,255,255,255whit
+    rgba(,,, a for opacity) 
+    2)HEX  color:#990000;*/
+    background-color: rgb(176, 158, 194);
+    color: rgb(115, 85, 143);
+   
+   
+    font-size: 18px;
+    text-align: left;
+    text-align-last:right;
+    direction: ltr;
+    /* decor for parag */
+    /* text-decoration-line: underline;
+    text-decoration-color: gray;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px; */
+   /* short hand decor */
+   text-decoration: underline gray solid 3px;
+   /* TEXT TRANSFORMATION */
+   text-transform: uppercase;
+   /* TEXT SPACING */
+  text-indent: 20px;  /* مسافة فى بداية الفقرة */
+   letter-spacing: 1px; /* المسافة بين كل حرف */
+   line-height: 1.5; /* المسافة بين السطور راسيا */
+   word-spacing: 3px;/*المسافة بين الكلمات*/
+   white-space:normal;
+   text-shadow: 2px 2px 2px #d66e91;
+
+
+}

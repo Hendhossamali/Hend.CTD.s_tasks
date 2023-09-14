@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tables Examples</title>
+    <style>
+        ul{
+            list-style-type:square;
+            color: brown;
+            list-style-position: inside;
+        }
+        ol{
+           list-style-type:lower-greek;
+        }
+        table,tr,td,th{
+            border: 2px solid black;
+            text-align: center;
+        }
+        th{
+            padding: 20px;
+            height: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td{
+            height: 20px;
+        }
+        tr:nth-child(odd){
+            background-color:salmon;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Table for studends</h1>
+    <table border="1"><!--border for frame-->
+        <tr><!--Row1-->
+            <th>Named</th> <!--th Row1 for header-->
+            <th>Email</th>
+            <th>Country</th>
+        </tr>
+        <tr><!--Row2-->
+            <td>Hend</td>
+            <td>hendhossa36@gmail.com</td>
+            <td>Egypt</td>
+        </tr>
+        <tr><!--Row3-->
+            <td>Hossam</td>
+            <td>Email@mail.com </td>
+            <td>Egypt</td>
+        </tr>
+        <tr><!--Row4-->
+            <td>Ali</td>
+            <td>Email2@mail.com </td>
+            <td>Egypt</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Unordered list</h2>
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+    </ul>
+    <hr>
+    <h2>Ordered list</h2>
+    <ol>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+    </ol>
+    <hr>
+    <!--Task/Activity-->
+    <h2>Description list</h2>
+    <h3>Coffee Menu</h3>
+    <dl>
+        <dt><b>Drinks</b></dt><!--title for dl-->
+        <dd>Coffee</dd><!--descrption for dl-->
+        <dd>Cappuccino</dd>
+        <dd>Mocha</dd>
+        <dd>Tea</dd>
+        <dd>Lemon Juice</dd>
+        <dt><b>Food</b></dt>
+        <dd>Burger</dd>
+        <dd>French fries</dd>
+    </dl>
+    <!--Form>>استمارة لإدخال البيانات-->
+    <p><ins>For order contact us</ins></p>
+    <form>
+        <label for="Name">Full Name:</label><!--for in labeltag refer to id in inputtag-->
+        <br>
+        <input type="text" id="Name" name="Name" value="Enter your name">
+        <br>
+        <label for="Number">Mobile number:</label>
+        <br>
+        <input type="text" id="Number" name="Number" value="Enter your number">
+        <br>
+        <br>
+        <input type="submit" value="Send"><!--submit for button-->
+
+
+    </form>
+
+
+</body>
+
+</html>
