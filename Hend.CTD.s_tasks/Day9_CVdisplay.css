@@ -22,7 +22,7 @@ body{
     background-color: rgb(218, 216, 216);
 }
 ul {
-    background-color: bisque;
+    background-color: rgb(170, 162, 152);
     list-style: none;
 }
 
@@ -33,20 +33,20 @@ li {
     height: 25px;
     text-align: center;
     font-size: 16px;
-    background-color: #f05f11;
+    background-color: #61554e;
     color: #ffffff;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto ;
-    background-color: #f05f11;
+    background-color: #61554e;
     padding: 20px;
     gap: 10px;
 }
 
 .grid-item {
-    background-color: bisque;
+    background-color:  rgb(170, 162, 152);
 }
 
 .back-to-top {
