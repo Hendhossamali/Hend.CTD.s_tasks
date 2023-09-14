@@ -6,6 +6,11 @@ h1{
 .header{
     background-color: rgb(75, 75, 75);
 }
+.img {
+    margin: 5px;
+    border: 1px solid #8d8c8c;
+    text-align: right;
+    }
 a:link{
     color:white;
 }
@@ -13,7 +18,7 @@ a:hover{
     color:rgb(251, 255, 0);
 }
 a:visited{
-    color:rgb(226, 43, 150);
+    color:rgb(66, 224, 66);
 }
 a:active{
     color:aqua;
