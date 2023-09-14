@@ -6,6 +6,18 @@ h1{
 .header{
     background-color: rgb(75, 75, 75);
 }
+a:link{
+    color:white;
+}
+a:hover{
+    color:rgb(251, 255, 0);
+}
+a:visited{
+    color:rgb(226, 43, 150);
+}
+a:active{
+    color:aqua;
+}
 body{
     background-color: rgb(218, 216, 216);
 }
