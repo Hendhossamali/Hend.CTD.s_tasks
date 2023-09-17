@@ -1,10 +1,14 @@
 
 h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: serif;
     color:white;
 }
 .header{
     background-color: rgb(75, 75, 75);
+}
+p{
+    display: inline;
+    font-style:italic;
 }
 img {
     margin: 5px;
@@ -12,6 +16,8 @@ img {
     image-resolution:initial;
     float:right;
     position:top;
+    width: 70px;
+    height: 100px;
     }
 a:link{
     color:white;
@@ -35,11 +41,12 @@ ul {
 
 li {
     display: inline-block;
-    margin: 10px;
-    padding: 5px;
+    margin: 5px 10px;
+    padding: 2px;
     height: 25px;
     text-align: center;
     font-size: 16px;
+    font-family: serif;
     background-color: #61554e;
     color: #ffffff;
 }
