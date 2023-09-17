@@ -11,16 +11,20 @@ p{
     font-style:italic;
 }
 img {
-    margin: 5px;
-    border:dotted 3px  #292626;
+    display:inline-block;
+    margin: 0;
+    border:1px solid rgb(56, 56, 56);
+    position:absolute;
+    right: 8px;
+    top: 21px;
     image-resolution:initial;
     float:right;
     position:top;
-    width: 70px;
-    height: 100px;
+    width: 69px;
+    height: 76px;
     }
 a:link{
-    color:white;
+    color:rgb(66, 224, 66);
 }
 a:hover{
     color:rgb(251, 255, 0);
@@ -30,6 +34,10 @@ a:visited{
 }
 a:active{
     color:aqua;
+}
+.email{
+    color:rgb(245, 27, 27);
+    font-style: oblique;
 }
 body{
     background-color: rgb(218, 216, 216);
@@ -64,10 +72,10 @@ li {
 }
 
 .back-to-top {
-    position: fixed;
+     position: fixed;/*للشاشة*/
     right: 10px;
     bottom: 10px;
-    border: 1px solid #d3cecc;
+    border: 1px solid  rgb(75, 75, 75);
 }
 
 .pos-relative {
@@ -82,6 +90,11 @@ li {
     bottom: 50px;
 }
 
+/* z-index:-1;
+overflow: visibile;
+overflow: hidden;
+overflow: scroll;
+overflow: auto; */
 .float-right {
     display:inline-block;
     width: 300px;
