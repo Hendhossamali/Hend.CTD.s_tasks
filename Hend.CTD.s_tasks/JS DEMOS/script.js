@@ -41,8 +41,9 @@
 // // sum(15,10);
 // console.log(sum(15,10));
 
-// Task
+// Task 
+alert("Hello!");
 // document.getElementsByTagName(h1).innerHTML = "Hend Hossam";
- document.getElementById(aboutme).innerHTML = "I am front-end developer,";
+ document.getElementById(ab).innerHTML = "I am front-end developer,";
 // document.getElementsByClassName(moreaboutme).innerHTML = " have experience on web development.";
 // document.getElementsByTagName(h1).element.style.property = blue;
