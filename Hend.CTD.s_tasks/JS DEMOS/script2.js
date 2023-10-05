@@ -16,7 +16,7 @@ const person ={
     firstname:"Hend",
     lastname:"Hossam",
     weight:100,
-    age:25
+    age:25,
    fullName: function(){
     return this.firstname + "" + this.lastname;
    }
