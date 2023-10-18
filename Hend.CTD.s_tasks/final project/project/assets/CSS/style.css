@@ -1,0 +1,159 @@
+/*Primary Color: #094B72,
+Secondary Color: #C3E8F1,
+Light Blue Color: #F2F7FF,
+ Body text color: #4f4f4f,
+ Dark Gray: #151617
+ White Color: #FCFCFC*/
+
+ /* Adding jakarta font */
+ @font-face {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    src: url(../fonts/Plus_Jakarta_Sans.ttf);
+ }
+ /* .container{
+
+ } */
+ .R2ProjectDemo{
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   width: 1440px;
+   height: 3609px;
+   position: relative;
+   background: #FCFCFC;
+   border: 1px solid black;
+ }
+ /* styling for menu */
+ .Navbar{
+   width: 1110px;
+   height: 100px;
+   left: 165px;
+   top: 0px; 
+   position: absolute;
+ }
+ .Rectangle9{
+   width: 1110px;
+   height: 100px;
+   left: 0px;
+   top: 0px;
+   border: 1px solid black;
+   position: absolute;
+   background: white
+ }
+ .Frame24{
+   width: 447px;
+   height: 47px;
+   padding: 12px;
+   left: 488px;
+   top: 26px;
+   position: absolute;
+   align-items: center;
+   gap: 56px;
+   display: inline-flex;
+}
+.Contact , .Testimonials , .About , .Terms{
+   color:#2D2F30;
+   font-size: 12px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 400;
+   line-height: 23px;
+   letter-spacing: 1.50px;
+   word-wrap: break-word;
+
+}
+/* styling search icon in menu */
+.Group27{
+   width: 65px;
+   height: 99px;
+   left: 1045px;
+   top: 1px;
+   position: absolute;
+}
+.Rectangle11{
+   width: 65px;
+   height: 99px;
+   left: 0px;
+   top: 0px;
+   position: absolute;
+}
+.Searchoutline{
+   width: 24px;
+   height: 24px;
+   left: 21px;
+   top: 37px;
+   position: absolute;
+}
+.searchicon{
+   width: 24px;
+   height: 24px;
+   left: 3px;
+   top: 3px;
+   position: absolute;
+}
+.Vector{
+   width: 18px;
+   height: 18px;
+   left: 3px;
+   top: 3px;
+   position: absolute;
+}
+/* Styling Hero section */
+.SectionHero{
+   width: 1501px;
+   height: 974px;
+   left: 0px;
+   top: 50px;
+   position: absolute;
+}
+.Rectangle8{
+   width: 1440px;
+   height: 924px;
+   left: 0px;
+   top: 50px;
+   position: absolute;
+   background: white;
+}
+.HeroImage{
+   width: 811px;
+   height: 973.94px;
+   left: 690px;
+   top: 0px;
+   position: absolute;
+}
+.Group492{
+   width: 811px;
+   height: 811px;
+   left: 0px;
+   top: 50px;
+   position: absolute;
+}
+.Ellipse1{
+   width: 811px;
+   height: 811px;
+   left: 0px;
+   top: 0px;
+   position: absolute;
+   background: rgba(109.86, 167.92, 255, 0.10);
+   border-radius: 9999px;
+}
+.Ellipse2{
+   width: 633.21px;
+   height: 633.21px;
+   left: 68.19px;
+   top: 6.49px;
+   position: absolute;
+   background: rgba(109.86, 167.92, 255, 0.10);
+   border-radius: 9999px;
+}
+.Preview1{
+   width: 549px;
+   height: 973.94px;
+   left: 84px;
+   top: 0px;
+   position: absolute;
+}
+
+/* @media only screen and (max-width: 600px) {
+   .container {
+      grid-template-columns: 100%;
+   }
+ } */
+ 
