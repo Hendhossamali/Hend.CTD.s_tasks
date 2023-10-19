@@ -582,26 +582,28 @@ Light Blue Color: #F2F7FF,
 }
 .Card{
    width: 540px;
-   height: 232px;
+   height: 280px;
    left: 0px;
    top: 0px;
    position: absolute;
-   box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
 }
-.Incredible{
+.Incredible,
+.Title{
    width: 476px;
    left: 32px; 
    top: 32px; 
    position: absolute; 
    text-align: center; 
    color: #151617; 
-   font-size: 18px; 
+   font-size: 20px; 
    font-family:'Plus Jakarta Sans', sans-serif;
    font-weight: 500; 
    line-height: 28px;
    word-wrap: break-word;
 }
-.WeHad{
+
+.WeHad ,
+.Content{
    width: 476px; 
    left: 32px; 
    top: 68px; 
@@ -615,7 +617,65 @@ Light Blue Color: #F2F7FF,
    letter-spacing: 0.50px; 
    word-wrap: break-word;
 }
-
+.Content{
+   top: 80px; 
+}
+.Client{
+   left: 150px;
+   top: 268px;
+   position: absolute;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 16px;
+   display: inline-flex;
+}
+.Photo{
+   width: 56px;
+   height: 56px;
+   border-radius: 9999px;
+}
+.PersonDetails{
+   flex-direction: column; 
+   justify-content: flex-start; 
+   align-items: flex-start;
+   display: inline-flex;
+}
+.Any{
+   color: #151617;
+   font-size: 18px; 
+   font-family:'Plus Jakarta Sans', sans-serif; 
+   font-weight: 700; 
+   line-height: 28px;
+   word-wrap: break-word;
+}
+.Ceo{
+   color: #4F4F4F; 
+   font-size: 14px; 
+   font-family:'Plus Jakarta Sans', sans-serif;
+   font-weight: 400; 
+   line-height: 24px;
+   word-wrap: break-word;
+}
+.QuoteMark{
+   width: 176px; 
+   height: 149px; 
+   left: 1300px; 
+   top: 187px; 
+   position: absolute; 
+   transform: rotate(180deg); 
+   transform-origin: 0 0; 
+   opacity: 0.50;
+}
+.Quote{
+   width: 176px; 
+   height: 149px; 
+   left: 185px; 
+   top: 147px; 
+   position: absolute; 
+   transform: rotate(180deg); 
+   transform-origin: 0 0;
+   opacity: 0.95;
+}
 /* @media only screen and (max-width: 600px) {
    .container {
       grid-template-columns: 100%;
