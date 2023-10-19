@@ -5,31 +5,36 @@ Light Blue Color: #F2F7FF,
  Dark Gray: #151617
  White Color: #FCFCFC*/
 
- /* Adding jakarta font */
- @font-face {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    src: url(../fonts/Plus_Jakarta_Sans.ttf);
- }
- /* .container{
+/* Adding jakarta font */
+@font-face {
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   src: url(../fonts/Plus_Jakarta_Sans.ttf);
+}
+
+/* .container{
 
  } */
- .R2ProjectDemo{
+.R2ProjectDemo {
    font-family: 'Plus Jakarta Sans', sans-serif;
    width: 1440px;
    height: 3609px;
    position: relative;
    background: #FCFCFC;
    border: 1px solid black;
- }
- /* styling for menu */
- .Navbar{
+}
+
+/* styling for menu */
+.Navbar {
    width: 1110px;
    height: 100px;
    left: 165px;
-   top: 0px; 
+   top: 0px;
+   border: 1px solid black;
    position: absolute;
- }
- .Rectangle9{
+   background: white
+}
+
+/* .Rectangle9 {
    width: 1110px;
    height: 100px;
    left: 0px;
@@ -37,8 +42,9 @@ Light Blue Color: #F2F7FF,
    border: 1px solid black;
    position: absolute;
    background: white
- }
- .Frame24{
+} */
+
+.Frame24 {
    width: 447px;
    height: 47px;
    padding: 12px;
@@ -49,8 +55,12 @@ Light Blue Color: #F2F7FF,
    gap: 56px;
    display: inline-flex;
 }
-.Contact , .Testimonials , .About , .Terms{
-   color:#2D2F30;
+
+.Contact,
+.Testimonials,
+.About,
+.Terms {
+   color: #2D2F30;
    font-size: 12px;
    font-family: 'Plus Jakarta Sans', sans-serif;
    font-weight: 400;
@@ -59,65 +69,67 @@ Light Blue Color: #F2F7FF,
    word-wrap: break-word;
 
 }
+
 /* styling search icon in menu */
-.Group27{
+.Group27 {
    width: 65px;
    height: 99px;
    left: 1045px;
    top: 1px;
    position: absolute;
 }
-.Rectangle11{
+
+.Rectangle11 {
    width: 65px;
    height: 99px;
    left: 0px;
    top: 0px;
    position: absolute;
 }
-.Searchoutline{
+
+.Searchoutline {
    width: 24px;
    height: 24px;
    left: 21px;
    top: 37px;
    position: absolute;
 }
-.searchicon{
+
+.searchicon {
    width: 24px;
    height: 24px;
    left: 3px;
    top: 3px;
    position: absolute;
 }
-.Vector{
+
+.Vector {
    width: 18px;
    height: 18px;
    left: 3px;
    top: 3px;
    position: absolute;
 }
+
 /* Styling Hero section */
-.SectionHero{
+.SectionHero {
    width: 1501px;
-   height: 974px;
-   left: 0px;
-   top: 50px;
-   position: absolute;
-}
-.Rectangle8{
-   width: 1440px;
    height: 924px;
    left: 0px;
-   top: 50px;
+   top: 100px;
    position: absolute;
    background: white;
 }
-.HeroImage{
+.HeroImage {
    width: 811px;
    height: 973.94px;
-   left: 690px;
+   left: 620px;
+   /* 690px; */
+   padding:0px;
    top: 0px;
    position: absolute;
 }
+
 .Group492{
    width: 811px;
    height: 811px;
@@ -125,35 +137,488 @@ Light Blue Color: #F2F7FF,
    top: 50px;
    position: absolute;
 }
-.Ellipse1{
+.Ellipse {
    width: 811px;
-   height: 811px;
+   height: 877px;
    left: 0px;
    top: 0px;
    position: absolute;
-   background: rgba(109.86, 167.92, 255, 0.10);
-   border-radius: 9999px;
 }
-.Ellipse2{
-   width: 633.21px;
-   height: 633.21px;
-   left: 68.19px;
-   top: 6.49px;
-   position: absolute;
-   background: rgba(109.86, 167.92, 255, 0.10);
-   border-radius: 9999px;
-}
-.Preview1{
+.Preview{
    width: 549px;
-   height: 973.94px;
+   height: 924px;
    left: 84px;
    top: 0px;
    position: absolute;
+}
+
+.HeroTitle {
+   width: 621px;
+   height: 376px;
+   left: 161px;
+   top: 200px;
+   position: absolute;
+}
+
+.YourSolution {
+   width: 621px;
+   left: 0px;
+   top: 0px;
+   position: absolute;
+   color: #094B72;
+   font-size: 69px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 700;
+   line-height: 82.80px;
+   letter-spacing: 1.38px;
+   word-wrap: break-word;
+}
+
+.WeAreHere {
+   width: 411.21px;
+   left: 4.88px;
+   top: 262px;
+   position: absolute;
+   color: #4F4F4F;
+   font-size: 24px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 500;
+   line-height: 37.92px;
+   letter-spacing: 0.50px;
+   word-wrap: break-word;
+}
+
+.ButtonGetStarted {
+   width: 190px;
+   height: 80px;
+   left: 164px;
+   top: 597px;
+   position: absolute;
+}
+
+.Rectangle10 {
+   width: 190px;
+   height: 80px;
+   left: 0px;
+   top: 0px;
+   position: absolute;
+   background: #094B72;
+   border-radius: 8px;
+}
+
+.GetStarted {
+   width: 118px;
+   left: 36px;
+   top: 29px;
+   position: absolute;
+   color: #F9F8F9;
+   font-size: 16px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 700;
+   line-height: 22.48px;
+   letter-spacing: 0.28px;
+   word-wrap: break-word;
+}
+
+.Rectangle10:hover {
+   background: #0d6294;
+}
+
+/* styling new section */
+.Group41 {
+   width: 434px;
+   height: 40px;
+   left: 155px;
+   top: 194px;
+   position: absolute;
+}
+
+.Rectangle4 {
+   width: 434px;
+   height: 40px;
+   left: 0px;
+   top: 0px;
+   position: absolute;
+   background: #E7F6FF;
+   border-radius: 26.50px;
+}
+
+.Group40 {
+   width: 86px;
+   height: 28px;
+   left: 6px;
+   top: 6px;
+   position: absolute;
+}
+
+.Rectangle5 {
+   width: 86px;
+   height: 28px;
+   left: 0px;
+   top: 0px;
+   position: absolute;
+   background: #094B72;
+   border-radius: 26.50px;
+}
+
+.New {
+   width: 55px;
+   height: 19px;
+   left: 16px;
+   top: 4px;
+   position: absolute;
+   text-align: center;
+   color: white;
+   font-size: 14px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 400;
+   line-height: 20px;
+   word-wrap: break-word;
+}
+
+.StayConnect {
+   left: 101px;
+   top: 2px;
+   position: absolute;
+   color: #193E6C;
+   font-size: 14px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 400;
+   line-height: 36px;
+   word-wrap: break-word;
+}
+
+/* 3)styling section why */
+.SectionWhy {
+   width: 1440px;
+   height: 786px;
+   left: 0px;
+   top: 1024px;
+   border: 1px solid black;
+   position: absolute;
+   background: #F2F7FF;
+}
+
+/* .Rectanglewhy{
+   width: 1440px;
+   height: 786px;
+   left: 0px;
+   top: 0px;
+  
+   position: absolute;
+   
+} */
+.OurFeature {
+   width: 545px;
+   height: 534px;
+   left: 639px;
+   top: 126px;
+   position: absolute;
+}
+
+.Feature1,
+.Feature2,
+.Feature3,
+.Feature4 {
+   position: absolute;
+   background: #FCFCFC;
+   box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+   border-radius: 8px;
+   overflow: hidden;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 18px;
+   display: inline-flex;
+}
+
+.Feature1 {
+   width: 256px;
+   height: 253px;
+   padding: 24px;
+   left: 0px;
+   top: 0px;
+}
+
+.Feature2 {
+   width: 255px;
+   height: 253px;
+   padding: 24px;
+   left: 286px;
+   top: 0px;
+}
+
+.Feature3 {
+   width: 252px;
+   height: 253px;
+   padding: 24px;
+   left: 2px;
+   top: 281px;
+}
+
+.Feature4 {
+   width: 259px;
+   height: 255px;
+   padding: 24px;
+   left: 286px;
+   top: 279px;
+}
+
+.CircleLaye,
+.UserArrows,
+.Bag,
+.Rocket {
+   width: 37px;
+   height: 37px;
+   position: relative;
+}
+
+.Frame {
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 10px;
+   display: flex;
+}
+
+.TheFirst {
+   width: 181px;
+   color: #363940;
+   font-size: 22px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 700;
+   line-height: 22px;
+   letter-spacing: 0.50px;
+   word-wrap: break-word;
+}
+
+.Micro {
+   width: 210px;
+   color: #8B8C8C;
+   font-size: 14px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0.30px;
+   word-wrap: break-word;
+}
+
+.Title {
+   width: 419.31px;
+   height: 302px;
+   left: 167px;
+   top: 174px;
+   position: absolute;
+}
+
+.WhyDo {
+   width: 419.31px;
+   height: 291px;
+   left: 0px;
+   top: 0px;
+   position: absolute;
+   color: #2D2F30;
+   font-size: 48px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 700;
+   letter-spacing: 0.32px;
+   word-wrap: break-word;
+}
+
+.WeAreHere {
+   width: 384px;
+   height: 144px;
+   left: 8px;
+   top: 158px;
+   position: absolute;
+   color: #8B8C8C;
+   font-size: 20px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 400;
+   line-height: 36px;
+   letter-spacing: 0.50px;
+   word-wrap: break-word;
+}
+/* 4) Styling Acheivment section  */
+.Achievement{
+   background-image: url(../images/bg-pattern.png);
+   width: 1320px; 
+   height: 356px; 
+   left: 0px; 
+   top: 1810px;
+   position: absolute;
+}
+.SectionHeadingAchie{
+   width: 730px;
+   height: 104px;
+   left: 355px;
+   top: 53px;
+   position: absolute;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 8px;
+   display: inline-flex;
+}
+.Heading{
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 8px;
+   display: flex;
+}
+.SectionTitleAchie{
+   width: 730px;
+   text-align: center;
+   color: white;
+   font-size: 48px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 900;
+   line-height: 64px;
+   letter-spacing: 0.24px;
+   word-wrap: break-word;
+}
+.Description{
+   align-self: stretch; 
+   text-align: center; 
+   color: white; 
+   font-size: 18px; 
+   font-family:'Plus Jakarta Sans', sans-serif;
+   font-weight: 400; 
+   line-height: 32px; 
+   letter-spacing: 0.50px; 
+   word-wrap: break-word;
+}
+.Counts{
+   width: 825px;
+   height: 96px;
+   left: 307.50px;
+   top: 205px;
+   position: absolute; 
+   justify-content: flex-start; 
+   align-items: flex-start; 
+   gap: 15px;
+   display: inline-flex;
+}
+.Box{
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   display: inline-flex;
+}
+.Details{
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   display: flex;
+}
+.Number{
+   width: 255px;
+   text-align: center;
+   color: white;
+   font-size: 48px;
+   font-family:'Plus Jakarta Sans', sans-serif;
+   font-weight: 800;
+   line-height: 64px;
+   word-wrap: break-word;
+}
+.Label{
+   width: 255px;
+   text-align: center;
+   color: white;
+   font-size: 18px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 400;
+   line-height: 32px;
+   letter-spacing: 0.05px;
+   word-wrap: break-word;
+}
+.Divider{
+   width: 96px;
+   height: 0px;
+   transform: rotate(90deg);
+   transform-origin: 0 0;
+   opacity: 0.40;
+   border: 1px white solid;
+}
+/* 5)Styling Testimonial Section */
+.TestimonialSection{
+   width: 1320px;
+   height: 610px;
+   left: 0px;
+   top: 2166px;
+   position: absolute;
+   background: #F2F7FF;
+}
+.TestSectionTitle{
+   width: 470px; 
+   left: 485px; 
+   top: 61px; 
+   position: absolute;
+   text-align: center; 
+   color: #2D2F30; 
+   font-size: 48px; 
+   font-family:'Plus Jakarta Sans', sans-serif;
+   font-weight: 700; 
+   line-height: 64px; 
+   letter-spacing: 0.50px;
+   word-wrap: break-word;
+}
+.Testimonials{
+   width: 1110px;
+   height: 304px;
+   left: 165px;
+   top: 176px;
+   position: absolute;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 30px;
+   display: inline-flex;
+}
+.TextTestimonial2{
+   width: 540px;
+   height: 304px;
+   position: relative;
+}
+.Card{
+   width: 540px;
+   height: 232px;
+   left: 0px;
+   top: 0px;
+   position: absolute;
+   box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+}
+.Incredible{
+   width: 476px;
+   left: 32px; 
+   top: 32px; 
+   position: absolute; 
+   text-align: center; 
+   color: #151617; 
+   font-size: 18px; 
+   font-family:'Plus Jakarta Sans', sans-serif;
+   font-weight: 500; 
+   line-height: 28px;
+   word-wrap: break-word;
+}
+.WeHad{
+   width: 476px; 
+   left: 32px; 
+   top: 68px; 
+   position: absolute; 
+   text-align: center; 
+   color: #4F4F4F; 
+   font-size: 14px; 
+   font-family:'Plus Jakarta Sans', sans-serif; 
+   font-weight: 400; 
+   line-height: 24px; 
+   letter-spacing: 0.50px; 
+   word-wrap: break-word;
 }
 
 /* @media only screen and (max-width: 600px) {
    .container {
       grid-template-columns: 100%;
    }
- } */
- 
+ } 
+ */
