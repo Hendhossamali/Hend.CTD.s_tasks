@@ -18,23 +18,23 @@
     <div class="container R2ProjectDemo">
         <!--1)nav menu -->
         <div class="container Navbar">
-            <!-- <div class="Rectangle9"></div> -->
-            <nav class="navbar navbar-expand-sm justify-content-center Frame24">
+            <nav class="navbar navbar-expand-sm Frame24">
                 <ul class="navbar-nav">
                     <li class="nav-item Contact px-3">
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link" href="#contact">CONTACT</a>
                     </li>
-                    <li class="nav-item Testimonials px-3">
-                        <a class="nav-link" href="#">TESTIMONIALS</a>
+                    <li class="nav-item Testimonialsnav px-3">
+                        <a class="nav-link" href="#test">TESTIMONIALS</a>
                     </li>
                     <li class="nav-item About px-3">
-                        <a class="nav-link" href="#">ABOUT</a>
+                        <a class="nav-link" href="#about">ABOUT</a>
                     </li>
                     <li class="nav-item Terms px-3">
-                        <a class="nav-link" href="#">TERMS</a>
+                        <a class="nav-link" href="#terms">TERMS</a>
                     </li>
                 </ul>
             </nav>
+            <!-- Search icon -->
             <div class="Group27">
                 <div class="Rectangle11"></div>
                 <div class="Searchoutline">
@@ -47,12 +47,12 @@
             </div>
         </div>
         <!--2)Hero Section -->
-        <div class="container SectionHero border border-primary">
+        <div id="about" class="container SectionHero">
             <div class="col-6 HeroImage">
-                <div class="Group492 border border-primary">
-                    <img class="Ellipse border border-primary" src="./assets/images/hero-background.png">
+                <div class="Group492">
+                    <img class="Ellipse" src="./assets/images/hero-background.png">
                 </div>
-                <img class="Preview border border-danger" src="./assets/images/hero-image.png">
+                <img class="Preview" src="./assets/images/hero-image.png">
             </div>
             <div class="col-6 HeroTitle">
                 <div class="YourSolution">
@@ -78,7 +78,7 @@
             <div class="StayConnect">Stay connected to the upcoming & Recent jobs</div>
         </div>
         <!-- 3)section why -->
-        <div class="container SectionWhy">
+        <div id="terms" class="container SectionWhy">
             <!-- <div class="Rectanglewhy"></div> -->
             <div class="OurFeature">
                 <div class="Feature1">
@@ -130,7 +130,7 @@
                     </div>
                 </div>
             </div>
-            <div class="Title">
+            <div class="WhyTitle">
                 <div class="WhyDo">Why do we help with legalization?</div>
                 <div class="WeAreHere">
                     We are here for UMKM in Indonesia to carry out the legalization process, which is sometimes
@@ -139,7 +139,7 @@
             </div>
         </div>
         <!-- 4)Acheivment section -->
-        <div class="container border border-primary Achievement">
+        <div id="test" class="container Achievement">
             <div class="SectionHeadingAchie">
                 <div class="Heading">
                     <div class="SectionTitleAchie">
@@ -175,7 +175,7 @@
             </div>
         </div>
         <!-- 5)Testimonial Section -->
-        <div class="container border border-danger TestimonialSection">
+        <div class="container TestimonialSection">
             <div class="TestSectionTitle">Clients Testimonial</div>
             <div class="Testimonials">
                 <div class="TextTestimonial2">
@@ -219,24 +219,89 @@
                     <img src="./assets/images/Quote.png">
                 </div>
             </div>
-            <div class="SliderControls2"
-                style="width: 54px; height: 10px; left: 693px; top: 520px; position: absolute; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
-                <div class="Ellipse1"
-                    style="width: 10px; height: 10px; background: white; border-radius: 9999px; border: 1px white solid">
-                </div>
-                <div class="Ellipse2"
-                    style="width: 10px; height: 10px; opacity: 0.50; border-radius: 9999px; border: 2px white solid">
-                </div>
-                <div class="Ellipse3"
-                    style="width: 10px; height: 10px; opacity: 0.50; border-radius: 9999px; border: 2px white solid">
-                </div>
+            <div class="Slider">
+                <div class="Ellipse1"></div>
+                <div class="Ellipse2"></div>
+                <div class="Ellipse3"></div>
             </div>
-
-            <!-- <div class="SectionHeading" style="width: 470px; height: 64px; left: 165px; top: 80px; position: absolute">
-            </div> -->
-
         </div>
-
+        <!-- 6)call section -->
+        <div id="contact" class="container Cta">
+            <div class="CtaTitle">Complex Questions?</div>
+            <div class="Request">
+                Request for a personalized budget for your legal problem. We will send you a coupe options in 24 hours.
+                You can have free consult , if a our first customer</div>
+            <div class="Group30">
+                <img class="ContactImg" src="./assets/images/contact-img.png" />
+            </div>
+            <div class="ButtonCallNow">
+                <button type="button">
+                    <div class="Rectangle14"></div>
+                    <div class="Group29">
+                        <div class="Call">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="CallNow">Call now</div>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <!-- 7)Footer section -->
+        <!-- 7)-1Logo -->
+            <div class="LogotypeLight">
+                <img  src="./assets/images/logo-white.png">
+            </div>
+        <div class="container Footer">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Company</th>
+                    <th>Support</th>
+                </tr>
+                <tr>
+                    <td>Overview</td>
+                    <td> About</td>
+                    <td>Help Center</td>
+                </tr>
+                <tr>
+                    <td>Features</td>
+                    <td>Press</td>
+                    <td>Terms of service</td>
+                </tr>
+                <tr>
+                    <td>Tutorials</td>
+                    <td>Careers</td>
+                    <td>Legal</td>
+                </tr>
+                <tr>
+                    <td>Pricing</td>
+                    <td>Contact</td>
+                    <td>Privacy Policy</td>
+                </tr>
+                <tr>
+                    <td>Releases</td>
+                    <td>Partners</td>
+                    <td>status</td>
+                </tr>
+            </table>
+            <div class="container SubFooter">
+                <div class="SocialLinks">
+                    <div class="SocialIcons">
+                        <a class="link" href="http://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="SocialIcons">
+                        <a class="link" href="http://www.dribbble.com"><i class="fa-brands fa-dribbble"></i></a>
+                    </div>
+                    <div class="SocialIcons">
+                        <a class="link" href="http://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="SocialIcons">
+                        <a class="link" href="http://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="copyRight">© 2021 Lawliet. All rights reserved</div>
+            </div>
+        </div>
     </div>
 
 

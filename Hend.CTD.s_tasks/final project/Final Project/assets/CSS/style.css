@@ -20,7 +20,6 @@ Light Blue Color: #F2F7FF,
    height: 3609px;
    position: relative;
    background: #FCFCFC;
-   border: 1px solid black;
 }
 
 /* styling for menu */
@@ -29,20 +28,9 @@ Light Blue Color: #F2F7FF,
    height: 100px;
    left: 165px;
    top: 0px;
-   border: 1px solid black;
    position: absolute;
    background: white
 }
-
-/* .Rectangle9 {
-   width: 1110px;
-   height: 100px;
-   left: 0px;
-   top: 0px;
-   border: 1px solid black;
-   position: absolute;
-   background: white
-} */
 
 .Frame24 {
    width: 447px;
@@ -57,7 +45,7 @@ Light Blue Color: #F2F7FF,
 }
 
 .Contact,
-.Testimonials,
+.Testimonialsnav,
 .About,
 .Terms {
    color: #2D2F30;
@@ -120,23 +108,25 @@ Light Blue Color: #F2F7FF,
    position: absolute;
    background: white;
 }
+
 .HeroImage {
    width: 811px;
    height: 973.94px;
    left: 620px;
    /* 690px; */
-   padding:0px;
+   padding: 0px;
    top: 0px;
    position: absolute;
 }
 
-.Group492{
+.Group492 {
    width: 811px;
    height: 811px;
    left: 0px;
    top: 50px;
    position: absolute;
 }
+
 .Ellipse {
    width: 811px;
    height: 877px;
@@ -144,7 +134,8 @@ Light Blue Color: #F2F7FF,
    top: 0px;
    position: absolute;
 }
-.Preview{
+
+.Preview {
    width: 549px;
    height: 924px;
    left: 84px;
@@ -294,20 +285,9 @@ Light Blue Color: #F2F7FF,
    height: 786px;
    left: 0px;
    top: 1024px;
-   border: 1px solid black;
    position: absolute;
    background: #F2F7FF;
 }
-
-/* .Rectanglewhy{
-   width: 1440px;
-   height: 786px;
-   left: 0px;
-   top: 0px;
-  
-   position: absolute;
-   
-} */
 .OurFeature {
    width: 545px;
    height: 534px;
@@ -403,7 +383,7 @@ Light Blue Color: #F2F7FF,
    word-wrap: break-word;
 }
 
-.Title {
+.WhyTitle {
    width: 419.31px;
    height: 302px;
    left: 167px;
@@ -439,16 +419,18 @@ Light Blue Color: #F2F7FF,
    letter-spacing: 0.50px;
    word-wrap: break-word;
 }
+
 /* 4) Styling Acheivment section  */
-.Achievement{
+.Achievement {
    background-image: url(../images/bg-pattern.png);
-   width: 1320px; 
-   height: 356px; 
-   left: 0px; 
+   width: 1320px;
+   height: 356px;
+   left: 0px;
    top: 1810px;
    position: absolute;
 }
-.SectionHeadingAchie{
+
+.SectionHeadingAchie {
    width: 730px;
    height: 104px;
    left: 355px;
@@ -460,14 +442,16 @@ Light Blue Color: #F2F7FF,
    gap: 8px;
    display: inline-flex;
 }
-.Heading{
+
+.Heading {
    flex-direction: column;
    justify-content: flex-start;
    align-items: flex-start;
    gap: 8px;
    display: flex;
 }
-.SectionTitleAchie{
+
+.SectionTitleAchie {
    width: 730px;
    text-align: center;
    color: white;
@@ -478,51 +462,57 @@ Light Blue Color: #F2F7FF,
    letter-spacing: 0.24px;
    word-wrap: break-word;
 }
-.Description{
-   align-self: stretch; 
-   text-align: center; 
-   color: white; 
-   font-size: 18px; 
-   font-family:'Plus Jakarta Sans', sans-serif;
-   font-weight: 400; 
-   line-height: 32px; 
-   letter-spacing: 0.50px; 
+
+.Description {
+   align-self: stretch;
+   text-align: center;
+   color: white;
+   font-size: 18px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 400;
+   line-height: 32px;
+   letter-spacing: 0.50px;
    word-wrap: break-word;
 }
-.Counts{
+
+.Counts {
    width: 825px;
    height: 96px;
    left: 307.50px;
    top: 205px;
-   position: absolute; 
-   justify-content: flex-start; 
-   align-items: flex-start; 
+   position: absolute;
+   justify-content: flex-start;
+   align-items: flex-start;
    gap: 15px;
    display: inline-flex;
 }
-.Box{
+
+.Box {
    flex-direction: column;
    justify-content: flex-start;
    align-items: center;
    display: inline-flex;
 }
-.Details{
+
+.Details {
    flex-direction: column;
    justify-content: flex-start;
    align-items: center;
    display: flex;
 }
-.Number{
+
+.Number {
    width: 255px;
    text-align: center;
    color: white;
    font-size: 48px;
-   font-family:'Plus Jakarta Sans', sans-serif;
+   font-family: 'Plus Jakarta Sans', sans-serif;
    font-weight: 800;
    line-height: 64px;
    word-wrap: break-word;
 }
-.Label{
+
+.Label {
    width: 255px;
    text-align: center;
    color: white;
@@ -533,7 +523,8 @@ Light Blue Color: #F2F7FF,
    letter-spacing: 0.05px;
    word-wrap: break-word;
 }
-.Divider{
+
+.Divider {
    width: 96px;
    height: 0px;
    transform: rotate(90deg);
@@ -541,8 +532,9 @@ Light Blue Color: #F2F7FF,
    opacity: 0.40;
    border: 1px white solid;
 }
+
 /* 5)Styling Testimonial Section */
-.TestimonialSection{
+.TestimonialSection {
    width: 1320px;
    height: 610px;
    left: 0px;
@@ -550,21 +542,23 @@ Light Blue Color: #F2F7FF,
    position: absolute;
    background: #F2F7FF;
 }
-.TestSectionTitle{
-   width: 470px; 
-   left: 485px; 
-   top: 61px; 
+
+.TestSectionTitle {
+   width: 470px;
+   left: 485px;
+   top: 61px;
    position: absolute;
-   text-align: center; 
-   color: #2D2F30; 
-   font-size: 48px; 
-   font-family:'Plus Jakarta Sans', sans-serif;
-   font-weight: 700; 
-   line-height: 64px; 
+   text-align: center;
+   color: #2D2F30;
+   font-size: 48px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 700;
+   line-height: 64px;
    letter-spacing: 0.50px;
    word-wrap: break-word;
 }
-.Testimonials{
+
+.Testimonials {
    width: 1110px;
    height: 304px;
    left: 165px;
@@ -575,52 +569,57 @@ Light Blue Color: #F2F7FF,
    gap: 30px;
    display: inline-flex;
 }
-.TextTestimonial2{
+
+.TextTestimonial2 {
    width: 540px;
    height: 304px;
    position: relative;
 }
-.Card{
+
+.Card {
    width: 540px;
    height: 280px;
    left: 0px;
    top: 0px;
    position: absolute;
 }
+
 .Incredible,
-.Title{
+.Title {
    width: 476px;
-   left: 32px; 
-   top: 32px; 
-   position: absolute; 
-   text-align: center; 
-   color: #151617; 
-   font-size: 20px; 
-   font-family:'Plus Jakarta Sans', sans-serif;
-   font-weight: 500; 
+   left: 32px;
+   top: 32px;
+   position: absolute;
+   text-align: center;
+   color: #151617;
+   font-size: 20px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 500;
    line-height: 28px;
    word-wrap: break-word;
 }
 
-.WeHad ,
-.Content{
-   width: 476px; 
-   left: 32px; 
-   top: 68px; 
-   position: absolute; 
-   text-align: center; 
-   color: #4F4F4F; 
-   font-size: 14px; 
-   font-family:'Plus Jakarta Sans', sans-serif; 
-   font-weight: 400; 
-   line-height: 24px; 
-   letter-spacing: 0.50px; 
+.WeHad,
+.Content {
+   width: 476px;
+   left: 32px;
+   top: 68px;
+   position: absolute;
+   text-align: center;
+   color: #4F4F4F;
+   font-size: 14px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0.50px;
    word-wrap: break-word;
 }
-.Content{
-   top: 80px; 
+
+.Content {
+   top: 80px;
 }
-.Client{
+
+.Client {
    left: 150px;
    top: 268px;
    position: absolute;
@@ -629,56 +628,287 @@ Light Blue Color: #F2F7FF,
    gap: 16px;
    display: inline-flex;
 }
-.Photo{
+
+.Photo {
    width: 56px;
    height: 56px;
    border-radius: 9999px;
 }
-.PersonDetails{
-   flex-direction: column; 
-   justify-content: flex-start; 
+
+.PersonDetails {
+   flex-direction: column;
+   justify-content: flex-start;
    align-items: flex-start;
    display: inline-flex;
 }
-.Any{
+
+.Any {
    color: #151617;
-   font-size: 18px; 
-   font-family:'Plus Jakarta Sans', sans-serif; 
-   font-weight: 700; 
+   font-size: 18px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 700;
    line-height: 28px;
    word-wrap: break-word;
 }
-.Ceo{
-   color: #4F4F4F; 
-   font-size: 14px; 
-   font-family:'Plus Jakarta Sans', sans-serif;
-   font-weight: 400; 
+
+.Ceo {
+   color: #4F4F4F;
+   font-size: 14px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 400;
    line-height: 24px;
    word-wrap: break-word;
 }
-.QuoteMark{
-   width: 176px; 
-   height: 149px; 
-   left: 1300px; 
-   top: 187px; 
-   position: absolute; 
-   transform: rotate(180deg); 
-   transform-origin: 0 0; 
+
+.QuoteMark {
+   width: 176px;
+   height: 149px;
+   left: 1300px;
+   top: 187px;
+   position: absolute;
+   transform: rotate(180deg);
+   transform-origin: 0 0;
    opacity: 0.50;
 }
-.Quote{
-   width: 176px; 
-   height: 149px; 
-   left: 185px; 
-   top: 147px; 
-   position: absolute; 
-   transform: rotate(180deg); 
+
+.Quote {
+   width: 176px;
+   height: 149px;
+   left: 185px;
+   top: 147px;
+   position: absolute;
+   transform: rotate(180deg);
    transform-origin: 0 0;
    opacity: 0.95;
 }
-/* @media only screen and (max-width: 600px) {
+
+.Slider {
+   width: 54px;
+   height: 10px;
+   left: 693px;
+   top: 520px;
+   position: absolute;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 12px;
+   display: inline-flex;
+}
+
+.Ellipse1,
+.Ellipse2,
+.Ellipse3 {
+   width: 10px;
+   height: 10px;
+   border-radius: 9999px;
+   border: 1px white solid;
+}
+
+.Ellipse1 {
+   background: white;
+}
+
+.Ellipse2,
+.Ellipse3 {
+   border: 2px white solid
+}
+
+/* 6)Styling call section */
+.Cta {
+   width: 1440px;
+   height: 374px;
+   left: 0px;
+   top: 2735px;
+   position: absolute;
+   background: white
+}
+
+.CtaTitle {
+   width: 470px;
+   height: 82.19px;
+   left: 159px;
+   top: 36.72px;
+   position: absolute;
+   text-align: center;
+   color: #2D2F30;
+   font-size: 48px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 525;
+   line-height: 64px;
+   letter-spacing: 0.50px;
+   word-wrap: break-word;
+}
+
+.Request {
+   width: 821px;
+   height: 129.39px;
+   left: 165px;
+   top: 133.76px;
+   position: absolute;
+   color: #4F4F4F;
+   font-size: 24px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 400;
+   line-height: 36px;
+   letter-spacing: 0.50px;
+   word-wrap: break-word;
+}
+
+.Group30 {
+   width: 330.40px;
+   height: 295px;
+   left: 1017px;
+   top: 41px;
+   position: absolute;
+}
+
+.ContactImg {
+   width: 330.40px;
+   height: 295px;
+   left: -30.44px;
+   top: -41.99px;
+   position: absolute;
+}
+
+.ButtonCallNow {
+   width: 219px;
+   height: 64px;
+   left: 165px;
+   top: 270px;
+   position: absolute;
+}
+
+.Rectangle14 {
+   width: 219px;
+   height: 64px;
+   left: 0px;
+   top: 0px;
+   position: absolute;
+   background: #094B72;
+   border-radius: 8px;
+}
+
+.Rectangle14:hover {
+   background: #0d6294;
+}
+
+.Group29 {
+   width: 146px;
+   height: 36px;
+   left: 37px;
+   top: 14px;
+   position: absolute;
+}
+
+.Call {
+   width: 28.56px;
+   height: 32px;
+   left: 3px;
+   top: 0px;
+   position: absolute;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   display: inline-flex;
+   font-size: 30px;
+   color: white;
+}
+
+.CallNow {
+   width: 100px;
+   left: 46px;
+   top: 0px;
+   position: absolute;
+   color: #F9F8F9;
+   font-size: 22px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 600;
+   line-height: 36px;
+   letter-spacing: 0.50px;
+   word-wrap: break-word;
+}
+
+/* 7)Styling Footer section */
+.Footer {
+   width: 1440px;
+   height: 502px;
+   left: 0px;
+   top: 3109px;
+   position: absolute;
+   background-color: #094B72;
+}
+.LogotypeLight>img {
+   width: 159px;
+   height: 54px;
+   left: 165px;
+   top: 3182.24px;
+   position: absolute;
+   z-index:2;
+}
+table {
+   width: 540px;
+   height: 231.25px;
+   left: 735px;
+   top: 99.24px;
+   position: absolute;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 30px;
+   color: #F2F7FF;
+
+}
+
+.SubFooter {
+   width: 1440px;
+   height: 69.37px;
+   left: 0px;
+   top: 430.70px;
+   position: absolute;
+   background: #004D7B;
+}
+
+.SocialLinks {
+   width: 144px;
+   height: 24px;
+   left: 1131px;
+   top: 22.69px;
+   position: absolute;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 16px;
+   display: inline-flex;
+   font-size: 25px;
+   color: #F2F7FF;
+}
+
+.SocialIcons {
+   left: -70px;
+   position: relative;
+}
+
+.link {
+   color: #F2F7FF;
+   width: 24px;
+   height: 24px;
+   position: relative;
+}
+
+.copyRight {
+   width: 230px;
+   height: 23.12px;
+   left: 165px;
+   top: 24.09px;
+   position: absolute;
+   color: #D9DBE1;
+   font-size: 14px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 400;
+   line-height: 24px;
+   word-wrap: break-word;
+}
+
+ @media only screen and (max-width: 600px) {
    .container {
       grid-template-columns: 100%;
    }
  } 
- */
+ 
