@@ -60,8 +60,13 @@ console.log(merg.flat()); //??
 console.log(colors);
 console.log(colors.splice(2, 0,"yellow", "pink"));
 console.log(colors.slice(1));
-// sort() sorts an array alphabetically
+// sort() sorts an array alphabetically(not use in num only by using compare fun sort(function(a,b){return a-b}))
 // reverse() 
+//iteration Foreach()
+//map() creats a new arr by perfoming a fun in rach arr element dose not change the old arr ele.
+//flatmap() , filter()
+//...
+
 
 
 
