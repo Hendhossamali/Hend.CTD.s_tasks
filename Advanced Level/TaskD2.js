@@ -1,5 +1,11 @@
+
 const person ={
-    firstname:"Jone",
-    lastname:"Doe"
+    firstName:"Jone",
+    lastName:"Doe",
+    fullName: function(){
+        return this.firstName +" "+ this.lastName;
+    }
 };
-alert(person.firstname);
+console.log(person.fullName());
+
+// alert(person.firstname);

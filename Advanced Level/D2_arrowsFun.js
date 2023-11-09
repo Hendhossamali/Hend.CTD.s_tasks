@@ -62,6 +62,40 @@ console.log(Hendh.fullname());
 //getter ,setter
 // static method 
 
+//forIN
+const user2 ={
+    firstName:"Hend",
+    lastName:"Hossam",
+    age:100,
+    eyeColor:"blue"
+}
+  for (let x in user2){
+    console.log(user2[x]);
+  }
+
+  //add and delete property to an object
+  const user21 ={
+    firstName:"Hend",
+    lastName:"Hossam",
+    age:100,
+    eyeColor:"blue"
+}
+user21.height=100;
+console.log(user21.height);
+delete user21.age;
+console.log(user21);
+    //nested objects
+    //ojects methods
+    const user212 ={
+        firstName:"Hend",
+        lastName:"Hossam",
+        age:100,
+        eyeColor:"blue",
+        fullName212: function(){
+            return this.firstName +" "+ this.lastName;
+        }
+    }
+console.log(user212.fullName212());
 
 
 
