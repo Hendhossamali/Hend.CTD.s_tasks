@@ -23,3 +23,26 @@ function sum2(firstNumber, seconedNumber = 10) {
     return firstNumber + seconedNumber;
 }
 console.log(sum2(3));
+const age = 100;
+const personAge = 100;
+const x = {
+    model: "BMW",
+    year: 2000
+};
+const person = {
+    username: "Hend",
+    passsword: "Pass",
+    age: 100
+};
+const customerOne = {
+    username: "Hend",
+    passsword: "Pass1",
+    age: 50,
+    discount: 70
+};
+console.log(customerOne.username);
+const dogOne = {
+    height: 60,
+    eyeColor: "blue"
+};
+console.log(dogOne.eyeColor);
