@@ -37,4 +37,3 @@ function sum1(firstNumber:number , seconedNumber:number , thirdNumber ?:number):
 
 
 
-
